@@ -1,5 +1,9 @@
 header{
     background-color: azure;
+    padding: 20px 0;/* espaço em cima e embaixo do cabeçalho - espaçamento interno*/
+=======
+header{
+    background-color: azure;
     padding: 20px 0;/* espaço em cima e em baixo do cabeçalho - espaçamento interno*/
 }
 
@@ -7,6 +11,7 @@ header{
     position: relative;/*menu dentro da caixa*/
     width: 940px;/*largura da caixa*/
     margin: 0 auto;
+
 }
 
 nav{
