@@ -1,4 +1,21 @@
-img{
- margin-left: 1000px;
+header{
+    background-color: azure;
+    padding: 20px 0;/* espaço em cima e em baixo do cabeçalho - espaçamento interno*/
+}
 
+.caixa{
+    position: relative;/*menu dentro da caixa*/
+    width: 940px;/*largura da caixa*/
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;/*espaçamento externo*/
 }
